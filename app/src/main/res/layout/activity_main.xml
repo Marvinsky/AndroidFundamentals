@@ -15,17 +15,15 @@
         android:id="@+id/numero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Ingresa un numero del 1 al 12"
+        android:hint="@string/hint_ingresar_numero"
         />
-
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Transformar"
+        android:text="@string/transformar"
         android:layout_below="@+id/numero"
-
         />
 
     <TextView
@@ -33,5 +31,72 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_calculadora"
+        android:layout_below="@+id/mes"
+        />
+
+    <EditText
+        android:id="@+id/primero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCalculadora"
+        android:hint="@string/text_primer_numero"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/segundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/primero"
+        android:hint="@string/text_segundo_numero"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/operacionSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/segundo"
+        android:text="@string/suma_signo"
+        />
+
+    <Button
+        android:id="@+id/operacionResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operacionSuma"
+        android:text="@string/resta_signo"
+        />
+
+    <Button
+        android:id="@+id/operacionMultiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operacionResta"
+        android:text="@string/multiplicacion_signo"
+        />
+
+    <Button
+        android:id="@+id/operacionDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operacionMultiplicacion"
+        android:text="@string/division_signo"
+        />
+
+    <EditText
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operacionDivision"
+        android:hint="@string/hint_resultado"
         />
 </RelativeLayout>

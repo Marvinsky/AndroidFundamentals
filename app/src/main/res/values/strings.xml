@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Java Fundamentals for Android</string>
+    <string name="validar_lineas">Ingrese un numero mayor que 0</string>
+    <string name="linea_text">linea </string>
+    <string name="hint_numero_lineas">Ingrese un numero mayor que 0</string>
+    <string name="btn_text_mostrar_lineas">Mostrar numero de lineas</string>
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="mayo">Mayo</string>
+    <string name="junio">Junio</string>
+    <string name="julio">Julio</string>
+    <string name="agosto">Agosto</string>
+    <string name="setiembre">Setiembre</string>
+    <string name="octubre">Octubre</string>
+    <string name="noviembre">Noviembre</string>
+    <string name="diciembre">Diciembre</string>
+    <string name="validacion_numero_ingresado">El numero debe estar entre 1 y 12</string>
+    <string name="hint_ingresar_numero">Ingresa un numero del 1 al 12</string>
+    <string name="transformar">Transformar</string>
+    <string name="text_calculadora">Calculadora</string>
+    <string name="text_primer_numero">ingresar primer numero</string>
+    <string name="text_segundo_numero">ingresar segundo numero</string>
+    <string name="suma_signo">+</string>
+    <string name="resta_signo">-</string>
+    <string name="multiplicacion_signo">*</string>
+    <string name="division_signo">/</string>
+    <string name="hint_resultado">resultado</string>
 </resources>

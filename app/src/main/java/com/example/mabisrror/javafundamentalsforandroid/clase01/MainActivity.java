@@ -1,4 +1,4 @@
-package com.example.mabisrror.javafundamentalsforandroid;
+package com.example.mabisrror.javafundamentalsforandroid.clase01;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.mabisrror.javafundamentalsforandroid.R;
 
 import org.w3c.dom.Text;
 

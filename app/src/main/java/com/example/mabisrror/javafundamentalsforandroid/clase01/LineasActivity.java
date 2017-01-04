@@ -1,4 +1,4 @@
-package com.example.mabisrror.javafundamentalsforandroid;
+package com.example.mabisrror.javafundamentalsforandroid.clase01;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.mabisrror.javafundamentalsforandroid.R;
 
 import org.w3c.dom.Text;
 

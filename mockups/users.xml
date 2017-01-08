@@ -1,0 +1,41 @@
+<xml version="1.0" encoding="UTF-8" ?>
+<users>
+	<user>
+		<userid>1</userid>
+		<name>marvin abisrror</name>
+		<twitter>marvin4sky</twitter>
+	</user>
+	<user>
+		<userid>2</userid>
+		<name>mash able</name>
+		<twitter>mashable</twitter>
+	</user>
+	<user>
+		<userid>3</userid>
+		<name>osame bin laden</name>
+		<twitter>osamaladen</twitter>
+	</user>
+	<user>
+		<userid>4</userid>
+		<name>donald trump</name>
+		<twitter>realDonalTrump</twitter>
+	</user>
+	<user>
+		<userid>5</userid>
+		<name>barack obama</name>
+		<twitter>BarackObama</twitter>
+	</user>
+	<user>
+		<userid>6</userid>
+		<name>hilary clinton</name>
+		<twitter>HillaryClinton</twitter>
+	</user>
+	<user>
+		<userid>7</userid>
+		<name>cristiano ronaldo</name>
+		<twitter>cristiano</twitter>
+	</user>
+<users>
+
+
+

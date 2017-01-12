@@ -27,4 +27,16 @@
     <string name="multiplicacion_signo">*</string>
     <string name="division_signo">/</string>
     <string name="hint_resultado">resultado</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="pausar">Pausar</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="cronometro">Cronometro</string>
+    <string name="current_chrono_stopped">Chronometro actualmente parado, click en continuar</string>
+    <string name="continue_chrono">Continuar</string>
+    <string name="begin_chrono">Empezar chrono</string>
+    <string name="chronometer_title">Cronometro</string>
+    <string name="initial_chronometer">00:00:00</string>
+    <string name="txt_iniciar">Iniciar</string>
+    <string name="txt_pausar">Pausar</string>
+    <string name="txt_reiniciar">Reiniciar</string>
 </resources>

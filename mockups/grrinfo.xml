@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grrinfo>
+	<user>
+		<uid>123456789</uid>
+		<name>marvin abisrror</name>
+		<email>marvin.abisrror@gmail.com</email>
+		<phone>937800726</phone>
+		<address>Jiron cabo gutarra 957</address>
+		<description>Social, bohemio y sexologo</description>
+		<announcements>
+			<announcement>
+				<aid>252eewf435</aid>
+				<owner>marvin abisrror</owner>
+				<imageUrl>https://image.jpg</imageUrl>
+				<timeStampCreated>34823489324327423</timeStampCreated>
+				<profile>
+					<pid>123456789</pid>
+					<name>marvin abisrror</name>
+					<email>marvin.abisrror@gmail.com</email>
+					<phone>937800726</phone>
+					<address>Jiron cabo gutarra 957</address>
+					<description>Social, bohemio y sexologo</description>
+				</profile>
+			</announcement>
+		</announcements>
+	</user>
+	<announcements>
+		<announcement>
+			<aid>252eewf435</aid>
+			<owner>marvin abisrror</owner>
+			<imageUrl>https://image.jpg</imageUrl>
+			<timeStampCreated>34823489324327423</timeStampCreated>
+			<profile>
+				<pid>123456789</pid>
+				<name>marvin abisrror</name>
+				<email>marvin.abisrror@gmail.com</email>
+				<phone>937800726</phone>
+				<address>Jiron cabo gutarra 957</address>
+				<description>Social, bohemio y sexologo</description>
+			</profile>
+		</announcement>
+		<announcement>
+			<aid>u8ewoejwof</aid>
+			<owner>pepito mondragon</owner>
+			<imageUrl>https://image2.jpg</imageUrl>
+			<timeStampCreated>322343204809384</timeStampCreated>
+			<profile>
+				<pid>99999999</pid>
+				<name>pepito mondragon</name>
+				<email>pepito.mondragon@gmail.com</email>
+				<phone>123653783</phone>
+				<address>Jiron los alisos 234</address>
+				<description>Social, bohemio y tipical</description>
+			</profile>
+		</announcement>
+	</announcements>
+</grrinfo>

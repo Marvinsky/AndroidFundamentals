@@ -8,15 +8,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".clase01.MainActivity">
-        </activity>
-        <activity android:name=".clase01.LineasActivity"></activity>
+        <activity android:name=".clase01.MainActivity" />
+        <activity android:name=".clase01.LineasActivity" />
         <activity android:name=".clase05.Cronometro">
+        </activity>
+        <activity android:name=".clase07.act1.OneActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".clase07.act2.TwoActivity" />
+        <activity android:name=".clase07.act3.ThreeActivity" />
+        <activity android:name=".clase07.act4.FourActivity" />
+        <activity android:name=".clase07.act5.FiveActivity"></activity>
     </application>
+
 </manifest>

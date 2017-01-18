@@ -46,4 +46,13 @@
     <string name="three_activity">Three activity</string>
     <string name="four_activity">Four activity</string>
     <string name="five_activity">Five activity</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="txt_service_started">Service started...</string>
+    <string name="txt_service_destroyed">Service destroyed...</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="txt_start_alarm">Start Alarm</string>
+    <string name="txt_ejecutar_servicio">Ejecutar servicio</string>
+    <string name="txt_ended_task">Tarea finalizada</string>
+    <string name="txt_clase07_tarea2">Clase 07 tarea 2</string>
 </resources>

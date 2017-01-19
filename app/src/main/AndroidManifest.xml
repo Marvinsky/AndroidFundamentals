@@ -2,10 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mabisrror.javafundamentalsforandroid">
 
-
-    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
-
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -31,7 +29,7 @@
         <activity android:name=".clase07.act3.ThreeActivity" />
         <activity android:name=".clase07.act4.FourActivity" />
         <activity android:name=".clase07.act5.FiveActivity" />
-        <activity android:name=".clase07.tarea2.activities.MainActivity2"></activity>
+        <activity android:name=".clase07.tarea2.activities.MainActivity2" />
         <activity android:name=".clase07.tarea2.activities.AlarmActivity" />
 
         <service
@@ -51,8 +49,7 @@
         <!-- Correr MainActivity3 para la tarea 2 -->
         <activity
             android:name=".clase07.tarea2.activities.MainActivity3"
-            android:label="@string/txt_clase07_tarea2">
-        </activity>
+            android:label="@string/txt_clase07_tarea2" />
 
         <service
             android:name=".clase07.tarea2.service.MyTestService3"
@@ -64,18 +61,27 @@
             android:name=".clase07.tarea3.contentprovider.ClientesProvider"
             android:authorities="com.example.mabisrror.javafundamentalsforandroid"
             android:enabled="true"
-            android:exported="true"></provider>
+            android:exported="true" />
 
         <activity android:name=".clase07.tarea3.activities.MainActivity4">
+        </activity>
+
+        <!-- Using a real db -->
+        <provider
+            android:name=".clase07.tarea3.contentprovider.ClientesProvider2"
+            android:authorities="com.example.mabisrror.javafundamentalsforandroid2"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".clase07.tarea3.activities.MainActivity5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <!-- End Tarea 7 -->
+
     </application>
 
 </manifest>

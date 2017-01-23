@@ -15,7 +15,7 @@
 					"pet": {
 						"petId": "13",
 						"name": "Kafka",
-						"mainImageUrl": "https://image.jpg"
+						"mainImageUrl": "http://soñar-con.com/wp-content/uploads/2015/05/So%C3%B1ar-con-Dragones.jpg"
 					},
 					"announcementType": {
 						"announcementTypeId": "1",
@@ -30,7 +30,7 @@
 					"pet": {
 						"petId": "14",
 						"name": "",
-						"mainImageUrl": "https://image.jpg"
+						"mainImageUrl": "http://soñar-con.com/wp-content/uploads/2015/05/So%C3%B1ar-con-Dragones.jpg"
 					},
 					"announcementType": {
 						"announcementTypeId": "2",
@@ -55,7 +55,7 @@
 				"pet": {
 					"petId": "73",
 					"name": "Firulais",
-					"mainImageUrl": "https://image.jpg"
+					"mainImageUrl": "http://soñar-con.com/wp-content/uploads/2015/05/So%C3%B1ar-con-Dragones.jpg"
 				},
 				"announcementType": {
 					"announcementTypeId": "1",
@@ -77,7 +77,7 @@
 				"pet": {
 					"petId": "127",
 					"name": "",
-					"mainImageUrl": "https://image.jpg"
+					"mainImageUrl": "http://soñar-con.com/wp-content/uploads/2015/05/So%C3%B1ar-con-Dragones.jpg"
 				},
 				"announcementType": {
 					"announcementTypeId": "2",

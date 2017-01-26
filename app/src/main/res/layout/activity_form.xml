@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mabisrror.javafundamentalsforandroid.clase09.form.FormActivity">
+
+
+    <EditText
+        android:id="@+id/etemail"
+        android:hint="@string/hint_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailSubject"
+        android:lines="1"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:text="@string/txt_login"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        />
+
+
+</LinearLayout>

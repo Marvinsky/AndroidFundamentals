@@ -63,8 +63,7 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".clase07.tarea3.activities.MainActivity4">
-        </activity>
+        <activity android:name=".clase07.tarea3.activities.MainActivity4" />
 
         <!-- Using a real db -->
         <provider
@@ -74,14 +73,21 @@
             android:exported="true" />
 
         <activity android:name=".clase07.tarea3.activities.MainActivity5">
+        </activity>
+        <!-- End Tarea 7 -->
+
+
+        <!-- Tarea 8 -->
+        <activity android:name=".clase09.form.FormActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- End Tarea 7 -->
+        <activity android:name=".clase09.form.SuccessActivity"></activity>
 
+        <!-- End tarde 8 -->
     </application>
 
 </manifest>

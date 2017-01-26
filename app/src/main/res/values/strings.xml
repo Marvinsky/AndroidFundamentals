@@ -61,4 +61,12 @@
     <string name="txt_llamadas">Llama</string>
     <string name="txt_give_permission_to_app">Give permissions of Contacts and Phone in the device</string>
     <string name="txt_check_permissions"><![CDATA[Check permissions in settings->apps->app->Permissions]]></string>
+    <string name="hint_password">password</string>
+    <string name="hint_email">email</string>
+    <string name="txt_login">Done</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="email_empty">enter email</string>
+    <string name="password_empty">enter password</string>
+    <string name="success_login">You have login successfully</string>
+    <string name="invalid_password">Invalid password</string>
 </resources>

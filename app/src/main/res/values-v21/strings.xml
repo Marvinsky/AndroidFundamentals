@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="estado_label">Tecnico</string>
+    <string name="tecnico_label">Tecnico</string>
+    <string name="prioridad_label">Prioridad</string>
+    <string name="descripcion_label">Descripcion</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_eliminar">Eliminar</string>
+    <string name="action_descartar">Descartar Cambios</string>
+</resources>

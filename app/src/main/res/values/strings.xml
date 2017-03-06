@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Java Fundamentals for Android</string>
+    <string name="app_name">JFFA</string>
     <string name="validar_lineas">Ingrese un numero mayor que 0</string>
     <string name="linea_text">linea </string>
     <string name="hint_numero_lineas">Ingrese un numero mayor que 0</string>
@@ -69,4 +69,48 @@
     <string name="password_empty">enter password</string>
     <string name="success_login">You have login successfully</string>
     <string name="invalid_password">Invalid password</string>
+    <string name="title_activity_main6">Main6Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_eliminar">Eliminar</string>
+    <string name="action_descartar">Descartar Cambios</string>
+
+
+    <!-- Etiquetas -->
+    <string name="estado_label">Estado</string>
+    <string name="descripcion_label">Descripción</string>
+    <string name="tecnico_label">Técnico</string>
+    <string name="categoria_label">Categoría</string>
+    <string name="prioridad_label">Prioridad</string>
+
+    <!-- Arreglos para spinners -->
+
+    <string name="descripcion_input">Descripción</string>
+
+    <string-array name="prioridad">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+
+    <string-array name="tecnico">
+        <item>Técnico #1</item>
+        <item>Técnico #2</item>
+        <item>Técnico #3</item>
+    </string-array>
+
+    <string-array name="categoria">
+        <item>Factibilidad</item>
+        <item>Mantenimiento</item>
+        <item>Migración</item>
+    </string-array>
+
+    <string-array name="estado">
+        <item>Abierta</item>
+        <item>En Curso</item>
+        <item>Cerrada</item>
+    </string-array>
+
 </resources>

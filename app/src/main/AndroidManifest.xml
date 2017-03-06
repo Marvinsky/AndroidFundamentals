@@ -72,22 +72,36 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".clase07.tarea3.activities.MainActivity5">
-        </activity>
+        <activity android:name=".clase07.tarea3.activities.MainActivity5"></activity>
         <!-- End Tarea 7 -->
 
 
         <!-- Tarea 8 -->
-        <activity android:name=".clase09.form.FormActivity" >
+        <activity android:name=".clase09.form.FormActivity" />
+        <activity android:name=".clase09.form.SuccessActivity" />
+
+        <!-- End tarde 8 -->
+
+
+        <!-- Begin Intermedio -->
+        <activity android:name=".intermediate.activities.MainActivity6">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".clase09.form.SuccessActivity"></activity>
 
-        <!-- End tarde 8 -->
+        <provider
+            android:name=".intermediate.TechsProvider"
+            android:authorities="com.example.mabisrror.javafundamentalsforandroid.intermediate.TechsProvider"
+            android:exported="true" />
+
+        <activity android:name=".intermediate.activities.DetailActivity" />
+        <activity android:name=".intermediate.activities.UpdateActivity" />
+
+        <!-- End Intermedio -->
+        <activity android:name=".intermediate.activities.InsertActivity"></activity>
     </application>
 
 </manifest>
